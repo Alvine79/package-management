@@ -23,7 +23,7 @@ sudo yum install java-1.8.0-openjdk-devel -y
 # Download tomcat software and extract it.
 sudo yum install wget unzip -y
 ```
-### Install Tomcat version 9.0.64
+### Install Tomcat version 10.0.22
 ``` sh
 sudo wget https://dlcdn.apache.org/tomcat/tomcat-10v10.0.22/bin/apache-tomcat-10.0.22.tar.gz
 sudo tar -xvf apache-tomcat-10.0.22.tar.gz
