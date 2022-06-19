@@ -31,7 +31,7 @@ sudo rm apache-tomcat-10.0.22.tar.gz
 sudo mv apache-tomcat-10.0.22 tomcat10
 sudo chmod 777 -R /opt/tomcat10
 sudo chown ec2-user -R /opt/tomcat10
-sh /opt/tomcat10bin/startup.sh
+sh /opt/tomcat10/bin/startup.sh
 # create a soft link to start and stop tomcat
 sudo ln -s /opt/tomcat9/bin/startup.sh /usr/bin/starttomcat
 sudo ln -s /opt/tomcat9/bin/shutdown.sh /usr/bin/stoptomcat
